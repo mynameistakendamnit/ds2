@@ -1,3 +1,24 @@
+button {
+  background-color: var(--color-button-dark-bg);
+  border-width: 0;
+  height: var(--size-bp-small-xxx-medium);
+  border-radius: var(--size-bp-small-medium);
+  padding: 0 var(--size-bp-small-xxx-medium);
+  font-family: var(--label-font-family);
+  font-weight: var(--label-font-weight);
+  line-height: var(--label-line-height);
+  font-size: var(--label-font-size);
+  color: var(--color-button-light-content);
+}
+
+h1 {
+  font-family: var(--heading-medium-font-family);
+  font-weight: var(--heading-medium-font-weight);
+  font-size: var(--heading-medium-font-size);
+  line-height: var(--heading-medium-line-height);
+  color: var(--color-text-dark-heading)
+}
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */

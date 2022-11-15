@@ -1,0 +1,14 @@
+{
+  "source": ["tokens/**/tokens-converted.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "web",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
+      }],
+      "actions": ["copy_assets"]
+    }
+  }
+}
