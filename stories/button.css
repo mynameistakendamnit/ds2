@@ -1,0 +1,29 @@
+.storybook-button {
+  font-family: var(--label-font-family), 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: var(--label-font-weight);
+  font-size: var(--label-font-size);
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: var(--label-line-height);
+}
+.storybook-button--primary {
+  color: var(--color-button-light-content);
+  background-color: var(--color-button-dark-bg);
+  border-radius: var(--size-bp-small-large);
+}
+.storybook-button--secondary {
+  color: var(--color-button-dark-content);
+  background-color: transparent;
+  padding: 0 0 !important;
+  text-decoration: var(--link-text-decoration);
+  text-underline-offset: var(--size-bp-small-xx-small);
+}
+.storybook-button--small {
+  padding: 0 var(--size-bp-small-medium);
+  height: var(--size-bp-small-xx-medium);
+}
+.storybook-button--large {
+  padding: 0 var(--size-bp-small-xx-medium);
+  height: var(--size-bp-small-xxx-medium);
+}

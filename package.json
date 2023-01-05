@@ -1,20 +1,36 @@
 {
-  "name": " ",
+  "name": "DSTest",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
+  "keywords": [],
   "license": "",
   "author": "",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=7f272a46f7d8"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/html": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "chromatic": "^6.11.4",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
     "token-transformer": "^0.0.27"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "DSTest@0.0.1"
 }
