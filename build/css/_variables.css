@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 05 Jan 2023 21:55:26 GMT
+ * Generated on Thu, 05 Jan 2023 22:16:13 GMT
  */
 
 :root {
@@ -148,4 +148,29 @@
   --opacity-subtle: 48%;
   --opacity-ghost: 16%;
   --box-shadow-regular: [object Object];
+  --font-family-serif: Lora, serif;
+  --font-family-sans-serif: Opens Sans, Helvetica, Sans Serif;
+  --font-weight-regular: Regular;
+  --font-weight-semi-bold: Semi Bold;
+  --font-weight-bold: Bold;
+  --line-height-regular: 140%;
+  --line-height-relaxed: 160%;
+  --font-size-small: 0.75rem;
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-x-large: 3rem;
+  --font-size-xx-large: 6rem;
+  --letter-spacing-regular: 0%;
+  --text-decoration-underline: underline;
+  --text-decoration-none: none;
+  --typography-small: [object Object];
+  --typography-paragraph: [object Object];
+  --typography-link: [object Object];
+  --typography-label: [object Object];
+  --typography-heading-small: [object Object];
+  --typography-heading-medium: [object Object];
+  --typography-heading-large: [object Object];
+  --typography-heading-x-large: [object Object];
+  --typography-heading-presentation: [object Object];
 }
