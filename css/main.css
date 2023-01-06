@@ -1,14 +1,14 @@
 button {
-  background-color: var(--color-button-dark-bg);
+  background-color: var(--color-button-bg-scheme-one);
   border-width: 0;
-  height: var(--size-bp-small-xxx-medium);
-  border-radius: var(--size-bp-small-medium);
-  padding: 0 var(--size-bp-small-xxx-medium);
-  font-family: var(--label-font-family);
-  font-weight: var(--label-font-weight);
-  line-height: var(--label-line-height);
-  font-size: var(--label-font-size);
-  color: var(--color-button-light-content);
+  height: var(--size-button-large);
+  border-radius: 100px;
+  padding: 0 var(--spacing-button-large-padding-left-right);
+  font-family: var(--font-family-sans-serif);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-relaxed);
+  font-size: var(--font-size-regular);
+  color: var(--color-text-dark);
 }
 
 h1 {

@@ -8,8 +8,8 @@
   line-height: var(--label-line-height);
 }
 .storybook-button--primary {
-  color: var(--color-button-light-content);
-  background-color: var(--color-button-dark-bg);
+  color: var(--color-root-salmon-600);
+  background-color: var(--color-button-bg-scheme-one);
   border-radius: var(--size-bp-small-large);
 }
 .storybook-button--secondary {
@@ -24,6 +24,6 @@
   height: var(--size-bp-small-xx-medium);
 }
 .storybook-button--large {
-  padding: 0 var(--size-bp-small-xx-medium);
+  padding: 0 var(--size-button-large);
   height: var(--size-bp-small-xxx-medium);
 }
