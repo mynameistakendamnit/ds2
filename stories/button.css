@@ -26,7 +26,7 @@
   height: var(--size-button-large);
 }
 .storybook-button--color-scheme-one {
-  background-color: var(--color-button-bg-scheme-four);
+  background-color: var(--color-button-bg-scheme-one);
 }
 .storybook-button--color-scheme-two {
   background-color: var(--color-button-bg-scheme-two);
