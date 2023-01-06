@@ -4,7 +4,7 @@ button {
   height: var(--size-button-large);
   border-radius: 100px;
   padding: 0 var(--spacing-button-large-padding-left-right);
-  font-family: var(--font-family-sans-serif);
+  font-family: var(--font-family-serif);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-relaxed);
   font-size: var(--font-size-regular);
@@ -12,9 +12,9 @@ button {
 }
 
 h1 {
-  font-family: var(--heading-medium-font-family);
+  font-family: var(--font-family-serif);
   font-weight: var(--heading-medium-font-weight);
-  font-size: var(--heading-medium-font-size);
+  font-size: var(--font-size-regular);
   line-height: var(--heading-medium-line-height);
   color: var(--color-text-dark-heading)
 }

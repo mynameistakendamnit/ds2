@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 06 Jan 2023 10:13:02 GMT
+ * Generated on Fri, 06 Jan 2023 15:36:53 GMT
  */
 
 :root {
@@ -134,13 +134,13 @@
   --color-input-field-text: #50494d;
   --color-input-placeholder-text: #50494d;
   --color-input-error-text: #ff2a00;
-  --border-radius-root-full-rounded: 50%;
+  --border-radius-root-full-rounded: 112px;
   --border-radius-root-rounded-corner: 8px;
-  --border-radius-button: 100px;
+  --border-radius-button: 112px;
   --border-radius-form-field: 8px;
   --border-radius-form-select: 8px;
-  --border-radius-form-radio: 50%;
-  --border-radius-search: 50%;
+  --border-radius-form-radio: 112px;
+  --border-radius-search: 112px;
   --border-width-thin: 1;
   --border-width-regular: 2;
   --border-width-thick: 4px;
@@ -148,8 +148,8 @@
   --opacity-subtle: 48%;
   --opacity-ghost: 16%;
   --box-shadow-regular: [object Object];
-  --font-family-serif: Lora, serif;
-  --font-family-sans-serif: Opens Sans, Helvetica, Sans Serif;
+  --font-family-serif: 'Lora', 'Helvetica', 'Arial', serif;
+  --font-family-sans-serif: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   --font-weight-regular: Regular;
   --font-weight-semi-bold: Semi Bold;
   --font-weight-bold: Bold;
@@ -162,15 +162,59 @@
   --font-size-x-large: 3rem;
   --font-size-xx-large: 6rem;
   --letter-spacing-regular: 0%;
+  --letter-spacing-stretch: 10%;
   --text-decoration-underline: underline;
   --text-decoration-none: none;
-  --typography-small: [object Object];
-  --typography-paragraph: [object Object];
-  --typography-link: [object Object];
-  --typography-label: [object Object];
-  --typography-heading-small: [object Object];
-  --typography-heading-medium: [object Object];
-  --typography-heading-large: [object Object];
-  --typography-heading-x-large: [object Object];
-  --typography-heading-presentation: [object Object];
+  --typography-small-font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --typography-small-font-weight: Regular;
+  --typography-small-line-height: 140%;
+  --typography-small-font-size: 0.75rem;
+  --typography-small-letter-spacing: 0%;
+  --typography-small-text-decoration: none;
+  --typography-paragraph-font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --typography-paragraph-font-weight: Regular;
+  --typography-paragraph-line-height: 160%;
+  --typography-paragraph-font-size: 1rem;
+  --typography-paragraph-letter-spacing: 0%;
+  --typography-paragraph-text-decoration: none;
+  --typography-link-font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --typography-link-line-height: 160%;
+  --typography-link-font-size: 1rem;
+  --typography-link-letter-spacing: 0%;
+  --typography-link-text-decoration: underline;
+  --typography-label-font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --typography-label-font-weight: Semi Bold;
+  --typography-label-line-height: 160%;
+  --typography-label-letter-spacing: 0%;
+  --typography-label-text-decoration: none;
+  --typography-heading-small-font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --typography-heading-small-font-weight: Bold;
+  --typography-heading-small-line-height: 160%;
+  --typography-heading-small-font-size: 1rem;
+  --typography-heading-small-letter-spacing: 0%;
+  --typography-heading-small-text-decoration: none;
+  --typography-heading-medium-font-family: 'Lora', 'Helvetica', 'Arial', serif;
+  --typography-heading-medium-font-weight: Bold;
+  --typography-heading-medium-line-height: 160%;
+  --typography-heading-medium-font-size: 1.5rem;
+  --typography-heading-medium-letter-spacing: 0%;
+  --typography-heading-medium-text-decoration: none;
+  --typography-heading-large-font-family: 'Lora', 'Helvetica', 'Arial', serif;
+  --typography-heading-large-font-weight: Bold;
+  --typography-heading-large-line-height: 160%;
+  --typography-heading-large-font-size: 2rem;
+  --typography-heading-large-letter-spacing: 0%;
+  --typography-heading-large-text-decoration: none;
+  --typography-heading-x-large-font-family: 'Lora', 'Helvetica', 'Arial', serif;
+  --typography-heading-x-large-font-weight: Bold;
+  --typography-heading-x-large-line-height: 140%;
+  --typography-heading-x-large-font-size: 3rem;
+  --typography-heading-x-large-letter-spacing: 0%;
+  --typography-heading-x-large-text-decoration: none;
+  --typography-heading-presentation-font-family: 'Lora', 'Helvetica', 'Arial', serif;
+  --typography-heading-presentation-font-weight: Bold;
+  --typography-heading-presentation-line-height: 140%;
+  --typography-heading-presentation-font-size: 6rem;
+  --typography-heading-presentation-letter-spacing: 0%;
+  --typography-heading-presentation-text-decoration: none;
 }
