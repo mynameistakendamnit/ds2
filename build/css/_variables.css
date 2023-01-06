@@ -4,6 +4,7 @@
  */
 
 :root {
+  size-root-base: 16px;
   --size-root-base: 16px;
   --size-xx-small: 4px;
   --size-x-small: 8px;
