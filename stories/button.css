@@ -1,29 +1,36 @@
 .storybook-button {
-  font-family: var(--label-font-family), 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: var(--label-font-weight);
-  font-size: var(--label-font-size);
+  font-family: var(--font-family-sans-serif);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-regular);
   border: 0;
   cursor: pointer;
   display: inline-block;
-  line-height: var(--label-line-height);
+  line-height: var(--line-height-regular);
+  color: var(--color-button-text);
+  border-radius: var(--border-radius-button);
 }
 .storybook-button--primary {
-  color: var(--color-root-salmon-600);
-  background-color: var(--color-button-bg-scheme-one);
-  border-radius: var(--size-bp-small-large);
+  text-decoration: var(--text-decoration-none);
 }
 .storybook-button--secondary {
-  color: var(--color-button-dark-content);
-  background-color: transparent;
-  padding: 0 0 !important;
-  text-decoration: var(--link-text-decoration);
+  background-color: transparent !important;
+  text-decoration: var(--text-decoration-underline);
   text-underline-offset: var(--size-bp-small-xx-small);
 }
 .storybook-button--small {
-  padding: 0 var(--size-bp-small-medium);
-  height: var(--size-bp-small-xx-medium);
+  padding: 0 var(--size-button-small);
+  height: var(--size-button-small);
 }
 .storybook-button--large {
   padding: 0 var(--size-button-large);
-  height: var(--size-bp-small-xxx-medium);
+  height: var(--size-button-large);
+}
+.storybook-button--color-scheme-one {
+  background-color: var(--color-button-bg-scheme-one);
+}
+.storybook-button--color-scheme-two {
+  background-color: var(--color-button-bg-scheme-two);
+}
+.storybook-button--color-scheme-three {
+  background-color: var(--color-button-bg-scheme-three);
 }

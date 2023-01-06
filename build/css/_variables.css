@@ -136,7 +136,7 @@
   --color-input-error-text: #ff2a00;
   --border-radius-root-full-rounded: 50%;
   --border-radius-root-rounded-corner: 8px;
-  --border-radius-button: 50%;
+  --border-radius-button: 100px;
   --border-radius-form-field: 8px;
   --border-radius-form-select: 8px;
   --border-radius-form-radio: 50%;
